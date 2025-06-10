@@ -1,9 +1,9 @@
-import { Canvas } from "../canvas/canvas.js";
-import { SiteManager } from "../site/site.js";
-import { HilbertBallManager } from "../hilbert-ball/hilbert-ball.js";
-import { BisectorManager } from "../bisector/bisector.js";
-import { HilbertDistanceManager } from "../hilbert-distance/hilbert-distance.js";
-import { SpaceManager } from "../space/space.js";
+import { Canvas } from "./canvas.js";
+import { SiteManager } from "./site.js";
+import { HilbertBallManager } from "./hilbert-ball.js";
+import { BisectorManager } from "./bisector.js";
+import { HilbertDistanceManager } from "./hilbert-distance.js";
+import { SpaceManager } from "./space.js";
 
 import { 
     initializeDropdowns, 
