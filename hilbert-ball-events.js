@@ -1,5 +1,5 @@
-import { initProperties as initSiteProperties } from "../site/site-events.js";
-import { HilbertBall, ForwardFunkBall, ReverseFunkBall, ThompsonBall,MultiBall } from "../../default-objects.js";
+import { initProperties as initSiteProperties } from "./site-events.js";
+import { HilbertBall, ForwardFunkBall, ReverseFunkBall, ThompsonBall,MultiBall } from "./default-objects.js";
 
 function debounce(func, wait) {
     let timeout;
