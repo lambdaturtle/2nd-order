@@ -1,8 +1,8 @@
 // canvas/canvas.js
-import { ConvexPolygon, Point, SelectableSegment, HilbertBall,Site } from "../../default-objects.js";
-import { drawInfoBox, clearInfoBoxes, renderAllKaTeX, hidePiGradientBar, createPiMap, createScatterPlot, centroid } from "../../default-functions.js";
+import { ConvexPolygon, Point, SelectableSegment, HilbertBall,Site } from "./default-objects.js";
+import { drawInfoBox, clearInfoBoxes, renderAllKaTeX, hidePiGradientBar, createPiMap, createScatterPlot, centroid } from "./default-functions.js";
 import { initEvents } from "./canvas-events.js";
-import { flameIntensity } from "../space/sprite.js";
+import { flameIntensity } from "./space/sprite.js";
 
 export class Canvas {
     constructor(canvasElement) {
