@@ -1,4 +1,4 @@
-import { hilbertDistance } from "../../default-functions.js";
+import { hilbertDistance } from "./default-functions.js";
 
 export class HilbertDistanceManager {
     constructor(canvas) {
