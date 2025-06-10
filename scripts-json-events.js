@@ -1,4 +1,4 @@
-import { ConvexPolygon, HilbertBall, Site, Point, SelectableSegment } from "../../default-objects.js";
+import { ConvexPolygon, HilbertBall, Site, Point, SelectableSegment } from "./default-objects.js";
 
 export function isAnyModalOpen() {
     const modals = [
