@@ -1,4 +1,4 @@
-import { Site, Point, SelectableSegment, HilbertBall, MultiBall } from "../../default-objects.js";
+import { Site, Point, SelectableSegment, HilbertBall, MultiBall } from "./default-objects.js";
 import { 
     initMouseActions, 
     initProperties, 
@@ -7,7 +7,7 @@ import {
     initContextMenu,
     destroyMouseActions
 } from "./site-events.js";
-import { mouseOnSite, hidePiGradientBar } from "../../default-functions.js";
+import { mouseOnSite, hidePiGradientBar } from "./default-functions.js";
 
 export class SiteManager {
     constructor(canvas, hilbertDistanceManager, bisectorManager, zRegionManager) {
