@@ -1,6 +1,6 @@
-import { SiteManager } from "../site/site.js";
-import { ConvexPolygon, Point } from "../../default-objects.js";
-import { centroid, pointInPolygon, norm } from "../../default-functions.js";
+import { SiteManager } from "./site.js";
+import { ConvexPolygon, Point } from "./default-objects.js";
+import { centroid, pointInPolygon, norm } from "./default-functions.js";
 import { initMouseActions, destroyMouseActions } from "./space-events.js";
 
 // Class for a 2d matrix
