@@ -1,5 +1,5 @@
 // canvas/canvas-events.js
-import { isAnyModalOpen } from "../scripts/scripts-json-events.js";
+import { isAnyModalOpen } from "./scripts-json-events.js";
 
 export function initEvents(canvas) {
     document.getElementById('reset').addEventListener('click', () => {
