@@ -1,7 +1,7 @@
 // space-events.js
 
-import { fattenPolygon, pointInPolygon } from "../../default-functions.js";
-import { Point } from "../../default-objects.js";
+import { fattenPolygon, pointInPolygon } from "./default-functions.js";
+import { Point } from "./default-objects.js";
 
 
 export function initMouseActions(manager) {
