@@ -1,7 +1,7 @@
-import { canvas } from "../scripts/scripts.js";
-import { Star, Point, HilbertBall, Site } from "../../default-objects.js";
-import { spaceManager } from "../scripts/scripts.js";
-import { centroid } from "../../default-functions.js";
+import { canvas } from "./scripts.js";
+import { Star, Point, HilbertBall, Site } from "./default-objects.js";
+import { spaceManager } from "./scripts.js";
+import { centroid } from "./default-functions.js";
 
 export let flameIntensity = 0;
 
