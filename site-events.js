@@ -1,9 +1,9 @@
-import { Bisector, HilbertBall, MiddleSector, Point, Site } from "../../default-objects.js";
+import { Bisector, HilbertBall, MiddleSector, Point, Site } from "./default-objects.js";
 import { createHilbertMinimumEnclosingRadiusBall, hilbertDistance, createScatterPlot, findHilbertCircumCenter, drawBisectorsOfHilbertCircumcenter } from "../../default-functions.js";
 import { SiteManager } from "./site.js";
-import { isAnyModalOpen } from "../scripts/scripts-json-events.js";
-import { hilbertMidpoint } from "../../default-functions.js";
-import { BisectorManager } from "../bisector/bisector.js";
+import { isAnyModalOpen } from "./scripts-json-events.js";
+import { hilbertMidpoint } from "./default-functions.js";
+import { BisectorManager } from "./bisector.js";
 
 function debounce(func, wait) {
     let timeout;
