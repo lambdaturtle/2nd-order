@@ -1,6 +1,6 @@
 // scripts-events.js
-import { HilbertDistanceManager } from "../hilbert-distance/hilbert-distance.js";
-import { SiteManager } from "../site/site.js";
+import { HilbertDistanceManager } from "./hilbert-distance.js";
+import { SiteManager } from "./site.js";
 
 function setDisplay(element, display) {
     element.style.display = display;
